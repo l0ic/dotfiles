@@ -2,9 +2,11 @@
 .bash_history
 .bash_logout
 .Xauthority
+.vscode-oss/
 Downloads/
 .mozilla/
 .profile
 .cache/
 .local/
+.pki/
 .ssh/

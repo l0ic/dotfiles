@@ -1,0 +1,35 @@
+#include ".colors/copland"
+
+Xft.lcdfilter                : lcddefault
+Xft.hintstyle                : hintslight
+Xft.hinting                  : 1
+Xft.autohint                 : 1
+Xft.antialias                : 1
+Xft.dpi                      : 100
+Xft.rgba                     : rgb
+
+Xcursor.theme                : Vanilla-DMZ-AA
+
+URxvt.geometry               : 100x40
+URxvt.font                   : xft:JetBrainsMono-Regular:pixelsize=10,style=regular
+URxvt.boldFont               : xft:JetBrainsMono-Regular:pixelsize=10,style=regular
+URxvt.letterSpace	     : -1
+URxvt.scrollBar              : true
+URxvt.scrollBar_right        : true
+URxvt.scrollBar_floating     : true
+URxvt.scrollstyle	           : plain
+URxvt.buffered               : true
+URxvt.saveLines              : 10000
+URxvt.iso14755               : false
+URxvt.perl-ext-common        : default,tabbedex
+URxvt.tabbed.tabbar-fg       : 8
+URxvt.tabbed.tabbar-bg       : 0
+URxvt.tabbed.tab-fg          : 15
+URxvt.tabbed.tab-bg          : 0
+URxvt.tabbed.autohide        : true
+URXvt.tabbed.reopen-on-close : yes
+URxvt.perl-ext               : default,url-select
+URxvt.keysym.C-i             : perl:url-select:select_next
+URxvt.url-select.launcher    : /usr/bin/firefox
+URxvt.url-select.underline   : true
+URxvt.colorUL                : #78A4FF

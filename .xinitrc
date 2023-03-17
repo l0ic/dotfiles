@@ -3,5 +3,5 @@
 # X settings.
 xrdb -merge .Xresources &
 
-# Start XM.
+# Start WM.
 exec awesome

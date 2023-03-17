@@ -1,0 +1,184 @@
+{
+  /////////////////////////////////////////////////////////////////////////////
+  // Editor.
+  /////////////////////////////////////////////////////////////////////////////
+
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  //"editor.rulers": [120],
+  "editor.lineNumbers": "on",
+  "editor.insertSpaces": true,
+  "editor.cursorStyle": "block",
+  "editor.roundedSelection": false,
+  "editor.scrollBeyondLastLine": false,
+  "explorer.confirmDragAndDrop": true,
+  "editor.autoClosingBrackets": "languageDefined",
+  "editor.renderLineHighlight": "all",
+  "editor.renderWhitespace": "boundary",
+  "editor.minimap.enabled": false,
+  "editor.tabCompletion": "on",
+  "editor.fontFamily": "Ubuntu Mono",
+  "editor.fontSize": 12,
+
+  // "editor.tokenColorCustomizations": {
+  //   "[Dark+ Material]": {
+  //     "textMateRules": [
+  //       {
+  //           "scope": "entity.name.type",
+  //           "settings": {
+  //               "foreground": "#FF0000"
+  //           }
+  //       }
+  //     ]
+  //   }
+  // },
+
+  /////////////////////////////////////////////////////////////////////////////
+  // Diff-editor.
+  /////////////////////////////////////////////////////////////////////////////
+
+  "diffEditor.ignoreTrimWhitespace": false,
+
+  /////////////////////////////////////////////////////////////////////////////
+  // File.
+  /////////////////////////////////////////////////////////////////////////////
+
+  "files.eol": "\n",
+  "files.encoding": "utf8",
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 10000,
+
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/.vscode": true,
+    "**/__pycache__": true,
+    "**/.pytest_cache": true,
+    "**/node_modules": true,
+    "venv": true,
+    "*.sublime-*": true,
+    "env*": true
+  },
+
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules": true,
+    "**/node_modules/**": true,
+    "**/node_modules/*/**": true,
+    "**/env/**": true,
+    "**/venv/**": true,
+    "env-*": true
+  },
+
+  "files.associations": {
+    "*.chai": "cpp"
+  },
+
+  /////////////////////////////////////////////////////////////////////////////
+  // Search
+  /////////////////////////////////////////////////////////////////////////////
+
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/env": true,
+    "**/venv": true
+  },
+
+  /////////////////////////////////////////////////////////////////////////////
+  // Extensions.
+  /////////////////////////////////////////////////////////////////////////////
+
+  "extensions.autoUpdate": false,
+  "extensions.ignoreRecommendations": true,
+
+  /////////////////////////////////////////////////////////////////////////////
+  // Telemetry.
+  /////////////////////////////////////////////////////////////////////////////
+
+  "telemetry.telemetryLevel":"off",
+  // "telemetry.enableTelemetry": false,
+  // "telemetry.enableCrashReporter": false,
+  "workbench.enableExperiments": false,
+  "workbench.startupEditor": "none",
+
+  "workbench.colorCustomizations": {
+    "editor.selectionBackground": "#1a6d80",
+    "editor.selectionHighlightBackground": "#0b323a"
+  //   "titleBar.activeBackground": "#262835",
+  //   "editor.background": "#262835",
+  //   "sideBar.border": "#383b4e",
+  //   "sideBar.background": "#262835",
+  //   "statusBar.background": "#4a4e68",
+  //   "menu.background": "#383b4e",
+  //   "tab.border": "#383b4e",
+  //   "tab.activeBorder": "#C6FF00",
+  //   "tab.activeBackground": "#3b3e53",
+  //   "tab.inactiveBackground": "#262835",
+  //   "editorGroupHeader.tabsBackground": "#262835",
+  //   "list.activeSelectionBackground": "#4a4e68",
+  //   "list.hoverBackground": "#3b3e53",
+  //   "activityBarBadge.background": "#C6FF00",
+  //   "list.activeSelectionForeground": "#C6FF00",
+  //   "list.inactiveSelectionForeground": "#C6FF00",
+  //   "list.highlightForeground": "#C6FF00",
+  //   "scrollbarSlider.activeBackground": "#C6FF0050",
+  //   "editorSuggestWidget.highlightForeground": "#C6FF00",
+  //   "textLink.foreground": "#C6FF00",
+  //   "progressBar.background": "#C6FF00",
+  //   "pickerGroup.foreground": "#C6FF00",
+  //   "notificationLink.foreground": "#C6FF00",
+  //   "editorWidget.resizeBorder": "#C6FF00",
+  //   "editorWidget.border": "#C6FF00",
+  //   "settings.modifiedItemIndicator": "#C6FF00",
+  //   "settings.headerForeground": "#C6FF00",
+  //   "panelTitle.activeBorder": "#C6FF00",
+  //   "breadcrumb.activeSelectionForeground": "#C6FF00",
+  //   "menu.selectionForeground": "#C6FF00",
+  //   "menubar.selectionForeground": "#C6FF00",
+  //   "editor.findMatchBorder": "#C6FF00",
+  //   "selection.background": "#C6FF0040"
+  },
+
+  "workbench.editorAssociations": {
+    "*.hex": "hexEditor.hexedit",
+    "*.ipynb": "jupyter-notebook"
+  },
+
+  /////////////////////////////////////////////////////////////////////////////
+  // Terminal.
+  /////////////////////////////////////////////////////////////////////////////
+  "terminal.integrated.fontSize": 12,
+  //"terminal.integrated.gpuAcceleration": "off",
+  "terminal.integrated.allowChords": false,
+  "terminal.integrated.experimentalLinkProvider": false,
+  "terminal.integrated.drawBoldTextInBrightColors": false,
+
+  /////////////////////////////////////////////////////////////////////////////
+  // Misc.
+  /////////////////////////////////////////////////////////////////////////////
+
+  "update.mode": "manual",
+  "explorer.confirmDelete": false,
+  "window.menuBarVisibility": "toggle",
+
+  /////////////////////////////////////////////////////////////////////////////
+  // Trilogic extensions.
+  /////////////////////////////////////////////////////////////////////////////
+
+  "trilogic-headers.user": "loic",
+  "trilogic-headers.email": "loic@trilogic.fr",
+  "security.workspace.trust.untrustedFiles": "open",
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "redhat.telemetry.enabled": false,
+  "json.maxItemsComputed": 2000,
+  "editor.guides.indentation": true,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "git.openRepositoryInParentFolders": "always"
+}

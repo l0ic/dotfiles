@@ -2,6 +2,8 @@
 .bash_history
 .bash_logout
 .Xauthority
+Downloads/
+.mozilla/
 .profile
 .cache/
 .local/

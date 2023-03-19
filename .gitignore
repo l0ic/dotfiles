@@ -8,5 +8,6 @@ Downloads/
 .profile
 .cache/
 .local/
+prog/
 .pki/
 .ssh/
